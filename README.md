@@ -32,7 +32,7 @@
         
         Note: Use lowercase alphabets only.
     
-4.Calling add with a negative number will throw an exception “Negatives not allowed” - and the negative that was passed.
+4. Calling add with a negative number will throw an exception “Negatives not allowed” - and the negative that was passed.
     
 5. If there are multiple negatives, show all of them in the exception message
 
