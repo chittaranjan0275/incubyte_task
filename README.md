@@ -43,11 +43,11 @@
         Output: 2
 
 
-7. (Optional) Allow the add method to handle new lines between numbers (instead of commas).
+7. (Optional) Allow the add method to handle new lines between numbers (instead of commas)
        1.The following is ok:
  
-       Input: "1\n2,3"
-       Output: 6
+             Input: "1\n2,3"
+             Output: 6
         
        2.The following is INVALID input so do not expect it: “1,\n” (no need to write a test for it)
     
@@ -55,6 +55,7 @@
       For example:
     
       Input: "//;\n1;2"
+      
       Output: 3
             
       Since the default delimiter is ‘;.’
