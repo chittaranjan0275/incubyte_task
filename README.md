@@ -14,15 +14,15 @@
         Input: "1,2"
         Output: 3
 
-2. Start with the simplest test case of an empty string and move to one & two numbers.
+      2. Start with the simplest test case of an empty string and move to one & two numbers.
 
-3. Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+      3. Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
 
-4. Remember to refactor after each passing test.
+      4. Remember to refactor after each passing test.
 
-    2. Allow the add method to handle an unknown amount of numbers
+2. Allow the add method to handle an unknown amount of numbers
     
-    3. Allow alphabets to be included with numbers.
+3. Allow alphabets to be included with numbers.
         The numeric value for the alphabet would be equal to its position.
         Such as a = 1, b = 2, c = 3 … y = 25, z = 26.
         For example:
@@ -42,15 +42,13 @@
         For example:
         
         Input: "2,1001"
-        
         Output: 2
 
 7. (Optional) Allow the add method to handle new lines between numbers (instead of commas).
     1. The following is ok:
-   
-        Input: "1\n2,3"
-        
-        Output: 6
+ 
+ Input: "1\n2,3"
+ Output: 6
         
     2. The following is INVALID input so do not expect it: “1,\n” (no need to write a test for it)
     
