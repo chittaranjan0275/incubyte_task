@@ -28,44 +28,43 @@
         For example:
         
         Input: "1,2,a,c"
-        
         Output: 7 (1 + 2 + 1 + 3)
         
         Note: Use lowercase alphabets only.
     
-4.Calling add with a negative number will throw an exception “Negatives not allowed” - and the negative
-    that was passed.
+4.Calling add with a negative number will throw an exception “Negatives not allowed” - and the negative that was passed.
     
 5. If there are multiple negatives, show all of them in the exception message
 
 6. Numbers bigger than 1000 should be ignored.
-        For example:
-        
+      For example:
+
         Input: "2,1001"
         Output: 2
 
+
 7. (Optional) Allow the add method to handle new lines between numbers (instead of commas).
-    1. The following is ok:
+       1. The following is ok:
  
- Input: "1\n2,3"
- Output: 6
+       Input: "1\n2,3"
+       Output: 6
         
-    2. The following is INVALID input so do not expect it: “1,\n” (no need to write a test for it)
+       2. The following is INVALID input so do not expect it: “1,\n” (no need to write a test for it)
     
 8. (Optional) Support different delimiters:To change a delimiter, the beginning of the string will contain a separate line that looks like this:"//[delimiter]\n[numbers…]"
-    For example:
+      For example:
     
-            Input: "//;\n1;2"
-            Output: 3
+      Input: "//;\n1;2"
+      Output: 3
             
-    Since the default delimiter is ‘;.’
-    Note: All existing scenarios and tests should still be supported. Don’t use alphabets and numbers as delimiters.
+      Since the default delimiter is ‘;.’
+      Note: All existing scenarios and tests should still be supported. Don’t use alphabets and numbers as delimiters.
     
 9. (Optional) Support odd/even addition: If the beginning of the string starts with 0// then add numbers at odd indices and if it starts with 1// then add numbers at even indices.
     
-                Input: "//[***]\n1***2***3"
-                Output: 6
+      Input: "//[***]\n1***2***3"
+      Output: 6
                 
-    Note: Existing test cases should still pass.
+       Note: Existing test cases should still pass.
     
     ALL THE BEST!!
