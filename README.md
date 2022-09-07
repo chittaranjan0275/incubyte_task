@@ -44,12 +44,12 @@
 
 
 7. (Optional) Allow the add method to handle new lines between numbers (instead of commas).
-       1. The following is ok:
+       1.The following is ok:
  
        Input: "1\n2,3"
        Output: 6
         
-       2. The following is INVALID input so do not expect it: “1,\n” (no need to write a test for it)
+       2.The following is INVALID input so do not expect it: “1,\n” (no need to write a test for it)
     
 8. (Optional) Support different delimiters:To change a delimiter, the beginning of the string will contain a separate line that looks like this:"//[delimiter]\n[numbers…]"
       For example:
