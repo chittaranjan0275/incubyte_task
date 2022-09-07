@@ -1,4 +1,4 @@
-# incubyte_TDD_assignment
+# Incubyte_TDD_assignment
 
 #Problem Statement
 1. In a test-first manner, create a simple class named StringCalculator and a method int add(String numbers)
