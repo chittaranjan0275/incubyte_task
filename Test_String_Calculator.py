@@ -7,3 +7,12 @@ class TestStringCalculator(unittest.TestCase):
     def test_empty_string(self):
         """this should return 0 if string is empty"""
         self.assertEqual(StringCalculator.add(''), 0)
+
+    def test_add_single_string(self):
+        """this should return string as it is"""
+        self.assertEqual(StringCalculator.add('1'),1)
+
+    def test_add_two_strings(self):
+        """this should add 2 numbers in string seperated by comma"""
+        self.assertEqual(StringCalculator.add('1,2'), 3)
+
