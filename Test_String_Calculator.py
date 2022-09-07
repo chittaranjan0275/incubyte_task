@@ -16,3 +16,6 @@ class TestStringCalculator(unittest.TestCase):
         """this should add 2 numbers in string seperated by comma"""
         self.assertEqual(StringCalculator.add('1,2'), 3)
 
+    def test_add_multiple_string(self):
+        self.assertEqual(StringCalculator.add('1,2,3'),6)
+
