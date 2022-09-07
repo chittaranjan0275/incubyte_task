@@ -17,7 +17,17 @@ class TestStringCalculator(unittest.TestCase):
         self.assertEqual(StringCalculator.add('1,2'), 3)
 
     def test_add_multiple_string(self):
+        """this should add multiple numbers in string"""
         self.assertEqual(StringCalculator.add('1,2,3'), 6)
 
     def test_ignore_greater_than_1000(self):
+        """this should ignore numbers greater than 1000"""
         self.assertEqual(StringCalculator.add('2, 1001'), 2)
+
+    def test_new_line_delimiters_as_a_comma(self):
+        """this should use new line delimiter as comma"""
+        self.assertEqual(StringCalculator.add('1\n2,3'),6)
+
+    def test_support_different_delimiters(self):
+        """this should use different delimiters"""
+        self.assertEqual(StringCalculator.add('//;\n1;2'),3)
