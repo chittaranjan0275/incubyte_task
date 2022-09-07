@@ -3,7 +3,7 @@
 #Problem Statement
 1. In a test-first manner, create a simple class named StringCalculator and a method int add(String numbers)
 
-      1.The method can take numbers as a string separated by comma and will return their sum (for an empty string, it will return 0). For example:
+      1. The method can take numbers as a string separated by comma and will return their sum (for an empty string, it will return 0). For example:
       
         Input: ""
         Output: 0
